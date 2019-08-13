@@ -25,7 +25,7 @@ p.advantage {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 33px;
     font-size: 1em;
     line-height: 1.5;
 }
@@ -37,6 +37,7 @@ p.advantage-first {
 p.advantage-last {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-bottom: 0;
 }
 
 p.advantage i {
@@ -44,13 +45,21 @@ p.advantage i {
     float: right;
     font-size: 1.5em;
     text-align: center;
+    transform: translate(-100%, 0%);
 }
 
 p.whatyouget {
     margin: 0;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     position: absolute;
     right: 0;
     top: 0;
     transform: translate(0%, -100%);
+    background-color: #46A6EF;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
