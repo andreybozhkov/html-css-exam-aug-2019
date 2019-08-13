@@ -22,11 +22,28 @@ p.advantage {
     margin-top: 0;
     margin-bottom: 3px;
     color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+p.advantage-first {
+    border-top-left-radius: 10px;
+}
+
+p.advantage-last {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 p.advantage i {
     color: #5CB07B;
     float: right;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 p.whatyouget {
