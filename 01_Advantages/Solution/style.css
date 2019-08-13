@@ -28,3 +28,12 @@ p.advantage i {
     color: #5CB07B;
     float: right;
 }
+
+p.whatyouget {
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(0%, -100%);
+}
