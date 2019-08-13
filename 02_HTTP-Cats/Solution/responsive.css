@@ -1,4 +1,12 @@
 @media screen and (max-width: 768px) {
+    .wrapper > header p {
+        font-weight: 300;
+        font-size: .7em;
+        letter-spacing: 0;
+        margin: 0;
+        text-align: center;
+    }
+
     .gallery {
         flex-flow: column nowrap;
     }
@@ -10,7 +18,7 @@
     }
 
     .wrapper.style2 {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .spotlight {
@@ -22,9 +30,11 @@
     .spotlight > * {
         flex-shrink: 1;
         flex-grow: 1;
-    }
-    
-    .spotlight > * {
         width: 100%;
+    }
+
+    .spotlight .inner {
+        padding: 1rem;
+        text-align: center;
     }
 }
