@@ -130,7 +130,7 @@ header .header-band-1-right > a.header-basic-item {
 
 main .main-band {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 main .main-course-title {
@@ -171,4 +171,14 @@ main .main-link-button {
 
 main .main-course-stats {
     margin-bottom: 30px;
+}
+
+main .main-mid-band-container {
+    background-color: #F2F2F2;
+    max-width: 1080px;
+    margin: auto;
+    text-align: left;
+    color: black;
+    margin-top: 40px;
+    padding: 20px;
 }
