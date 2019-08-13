@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+    .gallery {
+        flex-flow: column nowrap;
+    }
+
+    .gallery > * {
+        flex-shrink: 0;
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .wrapper.style2 {
+        padding: 2rem;
+    }
+}
