@@ -108,13 +108,14 @@ header .header-band-1-right > a.header-basic-item {
     max-width: 1080px;
     margin: auto;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .header-band-2 > a {
     color: #FFA000;
     font-weight: 600;
     font-size: 1em;
+    box-sizing: border-box;
 }
 
 .header-band-2 > a:first-child {
@@ -124,5 +125,50 @@ header .header-band-1-right > a.header-basic-item {
 .header-band-2 > a:last-child {
     color: #234465;
     padding-bottom: 10px;
-    border-bottom: 2px solid #234465;
+    border-bottom: 1px solid #234465;
+}
+
+main .main-band {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+main .main-course-title {
+    max-width: 1080px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+main .main-course-title h1 {
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+main .main-course-title p {
+    display: inline;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+main .main-link-button {
+    background-color: #FFA000;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+main .main-course-stats {
+    margin-bottom: 30px;
 }
